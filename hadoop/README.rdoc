@@ -1,0 +1,16 @@
+= DESCRIPTION:
+
+This is a hadoop-cookbook.
+Build stand alone hadoop environment at mac.
+Hadoop version is CDH Update 1.
+
+= REQUIREMENTS:
+
+At first, you have to make user which name is "hadoop".
+You run System settings and make user.
+After it, this cookbook make you help build env.
+
+= ATTRIBUTES:
+
+= USAGE:
+
