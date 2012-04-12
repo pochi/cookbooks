@@ -2,7 +2,7 @@ include_recipe "node::nvm"
 
 script "Install node" do
   interpreter "bash"
-  user "ITPUser"
+  user "itp"
   code <<-EOC
     source ~/.nvm/nvm.sh
     nvm install v0.4.12

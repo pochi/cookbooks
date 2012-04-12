@@ -2,7 +2,7 @@ Chef::Logger = :debug
 
 script "Install nvm" do
   interpreter "bash"
-  user "ITPUser"
+  user "itp"
   code <<-EOC
     source ~/.bashrc
     git clone https://github.com/creationix/nvm.git
